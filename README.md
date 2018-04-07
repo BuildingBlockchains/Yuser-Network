@@ -6,8 +6,8 @@ It’s in the name, yuser is built for users. Earn points that let you unlock co
 
 This repository is the working directory for contracts and other relevant code for the Yuser Network.
 
-Website: https://yuser.co/
+Website: < https://yuser.co/ >
 
-Whitepaper: https://yuser.co/yuser_files/Yuser-White-Paper-011.pdf?pdf=whitepaper
+Whitepaper: < https://yuser.co/yuser_files/Yuser-White-Paper-011.pdf?pdf=whitepaper >
 
-Telegram: https://t.me/joinchat/HYh6wg_1lpVdtBZ7oqe-jA
+Telegram: < https://t.me/joinchat/HYh6wg_1lpVdtBZ7oqe-jA >
