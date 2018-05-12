@@ -7,11 +7,19 @@ pragma solidity ^0.4.21;
 
 import "./EIP20Interface.sol";
 
+contract EIP20 is EIP20Interface {
+
+    uint256 constant private MAX_UINT256 = 2**256 - 1;
+    mapping (address => uint256) public balances;
+    mapping (address => mapping (address => uint256)) public allowed;
+
+
+
 /**
  * @title SafeMath
  * @dev Math operations with safety checks that throw on error
  */
-library SafeMath {
+
 
   /**
   * @dev Multiplies two numbers, throws on overflow.
@@ -51,13 +59,8 @@ library SafeMath {
     assert(c >= a);
     return c;
   }
-}
 
-contract EIP20 is EIP20Interface {
 
-    uint256 constant private MAX_UINT256 = 2**256 - 1;
-    mapping (address => uint256) public balances;
-    mapping (address => mapping (address => uint256)) public allowed;
     /*
     NOTE:
     The following variables are OPTIONAL vanities. One does not have to include them.
